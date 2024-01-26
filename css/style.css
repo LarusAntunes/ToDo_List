@@ -1,0 +1,167 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2b2828;
+  }
+  
+  body {
+    background-image: url("../img/fundo-preto.gif");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  button {
+    background-color: #000000;
+    color: #c00e0e;
+    border: 2px solid #b01414;
+    padding: 0.3rem 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+  }
+  
+  button:hover {
+    background-color: #ffffff;
+  }
+  
+  button:hover > i {
+    color: #000000;
+  }
+  
+  /* icone do botão */
+  button i {
+    pointer-events: none;
+    color: #c00e0e;
+    font-weight: bold;
+  }
+  
+  input, select {
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  /* Header */
+  .ToDo_container {
+    max-width: 450px;
+    margin: 3rem auto 0;
+    background-color: #fdfdfd;
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+  
+  .ToDo_container header {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Formulário */
+  #form_ToDo, #editar_form {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #form_ToDo p,
+  #editar_form p {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .controle_formulario {
+    display: flex;
+  }
+  
+  .controle_formulario input {
+    margin-right: 0.3rem;
+  }
+  
+  /* BOTAO CANCELAR */
+  #cancelar_botao {
+    margin-top: 1rem;
+    color: #c00e0e;
+    /* background-color: #000000; */
+  }
+  
+  /* Pesquisar */
+  #barra_pesquisar {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+  }
+  
+  #barra_pesquisar h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  #busca {
+    border-right: 1px solid #ddd;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #busca form {
+    display: flex;
+  }
+  
+  #busca input {
+    width: 100%;
+    margin-right: 0.3rem;
+  }
+  
+  #filtro {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #filtro select {
+    flex: 1;
+  }
+  
+  /* Todo List */
+  .ToDo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #ddd;
+    transition: 0.3s;
+  }
+  
+  .ToDo h3 {
+    flex: 1;
+    font-size: 0.9rem;
+  }
+  
+  .ToDo button {
+    margin-left: 0.4rem;
+  }
+  
+  /* assim que o botao de concluir tarefa for clicado */
+  .done {
+    background: #395169;
+  }
+  
+  .done h3 {
+    color: #fff;
+    text-decoration: line-through;
+    font-style: italic;
+  }
+
+  .musica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
